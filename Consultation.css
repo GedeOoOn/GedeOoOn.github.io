@@ -11,6 +11,8 @@ body {
 	padding-bottom: 10px;
 }
 
+
+
 .fig {
 	display: block; 
 	text-align: center;
@@ -23,18 +25,12 @@ body {
 }
 
 
-span {
-	color: red;	
-}
 
 .inst_href{
 	text-align: center;
 }
 
-
-
 p {
-	margin: 0;
 	text-align: center;
 	font-size: 20px;
 	font-weight: 400;
@@ -46,25 +42,15 @@ ul {
 
 ul li {
 	list-style-type: none;
-	padding-top: 5px;
-}
-.first_fix {
-	padding-top: 0;
-
 }
 
-.center {
-	text-align: center;
-}
-
-.second {
-	padding-top: 15px;
-	padding-left: 0;
+span {
+	color: #f54257;
 }
 
 
 .button{
-	background-color: #888a30;
+	background-color: #fcc2d7;
 	color: white;
 	padding: 25px 20px;
   text-decoration: none;
@@ -74,31 +60,34 @@ ul li {
 	margin: 0 30%;
 }
 
-
-
 .button img {
 	padding-right: 5px;
 	width: 25px;
 	height: 25px;
 	vertical-align: middle;
 }
-
-.button:hover {
-	background-color: #2c3922;
+.row{
+	display: flex;
+	vertical-align: ;
 }
 
 .button a {
+	
 	height: 25px;
 	vertical-align: middle;
 }
 
-.green{
-	background-color: #55cd6c;
+.vk{
+	background-color: #4a76a9;
 }
 
-.whatsapp_logo{
-	height: 40px;
-	width: 40px;
+.inst{
+	background-color: #4a43a1;
+}
+
+.git{
+	background-color: #f05133;
+	
 }
 
 
@@ -108,13 +97,15 @@ ul li {
 		max-width: 970px;
 		margin: 0 1%;
 	}
+	
 }
 
-@media (max-width:1024px) {
+@media (max-width:992px) {
 	.container	{
 		max-width: 750px;
-		margin: 0 auto;
+		margin: 0 1%;
 	}
+	.
 }
 
 @media (max-width:767px) {
